@@ -7,6 +7,10 @@
 </head>
 
     <style>
+    .center-button {
+            display: flex;
+            justify-content: center;
+        }
         body {
             font-family: Arial, sans-serif;
             margin: 0;
@@ -62,6 +66,10 @@
 <body>
 
 <div class="container">
+
+<div class="center-button">
+                <button type="submit" class="btn btn-primary">Submit</button>
+            </div>
 
 	<h1>New Employee Details</h1>
 	
